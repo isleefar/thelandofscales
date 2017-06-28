@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Caracossam</title>
+	<meta name='Generator' content='Zim 0.67-rc2-win-2'>
+	<style type='text/css'>
+		a          { text-decoration: none      }
+		a:hover    { text-decoration: underline }
+		a:active   { text-decoration: underline }
+		strike     { color: grey                }
+		u          { text-decoration: none;
+					 background-color: yellow   }
+		tt         { color: #2e3436;            }
+		pre        { color: #2e3436;
+					 margin-left: 20px          }
+		h1         { text-decoration: underline;
+					 color: #4e9a06; margin-bottom: 0 }
+		h2         { color: #4e9a06; margin-bottom: 0 }
+		h3         { color: #4e9a06; margin-bottom: 0 }
+		h4         { color: #4e9a06; margin-bottom: 0 }
+		h5         { color: #4e9a06; margin-bottom: 0 }
+		p          { margin-top: 0              }
+		span.zim-tag {
+			color: #ce5c00;
+		}
+		div.zim-object {
+			border-style:solid;
+			border-width:1px;
+		}
+		.checked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8sMEGsKGkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAEBUlEQVRIx62V22tdRRTGf7Nn73P2ybntnNOe3NqkPTGgLTVUUZF6QatSLOKTPgqCIqLgQ0H/A1sQQbBYCBb1QfAxiC8tSO1FqHkwJVKtjdTGNraUmObsc9nXmfGh7cGYpM1D5nHWzPetteZb3wg2eB2YqYm4zSadsMtoboiNBH/3TE0awx6j+MRoxoTg/IYRvP19TQrJS0bzhdHGSyKFkLTtjSKwMjyiEz43ynhtP6bdjBCWyFobAf7eT7VhNF/q1FRbjYjmUohlCVPwnB+6FUxMTJipqSmUUhhjEGKd3bMT4ks/Y6oLBK2Yth8hHYtCJXOix7Nf7xLMzc0xOzvLzp078TyPNE3viW3QJPXzhNWbxFFKHCmMhoLn/FHodd48vGfhapdAacXQlkFK5dL6wIUm6fuTZPuvqDQhaMUYYyiVyuQr6rXDexYuAdi3tSv1ZJNs/R/CaszzT+1na88uXFnCEnJVgivBNN8uTJKmHQI/ptOOcXNZzMz9mOqFs90OHpipWcYwlo5P4ebnuOkrvr5wgrH+h3im7y36MzuwRXYZeKha/OhP0EkadFoxQSdGSotedR/+XwMc2XvKdNUFOFqZx6LKZWIiwjgkikNmLp/hm8sH+K1zjFTHXfBYdTi+eJArzXM0GxFxoBDCopLvo/fqEwi1XPkWkGqjFo2TgB1jOYZUKZTS/D1/ncmLh7jon0IbRWoiTi59ymzzJEEQE3cStNZsGxqlfPE57MBbOR8fP3hDGalOO9fq2DlBvmZw8xa2IxACGn6TydlD/O6f5OzSV/zif0cYhLQaEXGkKBbz7Ov/AOlXV1cxgBJRI3fuSTrpTawt18kWIZN1CFuaONI0w0WOXfsI43YIggh/KUSlhqxrMz74AkOZcWBm9QkH+Gw8NDLuITi+m0yzhluSyJzBLcpblUhFxywSRAEtPwQjsKVN30CNh0uvYuOubSHLtN3J0TO1j0pmBNuFbFWRK0gyPRZpktL2I5JQkclKakNlnh54g6ocvevUr/Ai2a7wineEkcJupA3S1Wg0nVZM2E6wbEF5U5G9Q++wI7sfR7h3N8HVNstykBfzH+KJEZwiWD0aIwxCgJ0R1Mu7GXOeJSuK93bZtQIle4D9pUNU5DC5jEsu55AvZakM5NicGyEj8uuz8bUCQgj67QfY671P3vEoeC69gy695U1U7NG7XV0pUwBjDJa1/JJlWWxzHuflzQe5FJ/GsgUVuZ2t8lEkTvfc0aNHb72flBhjVicQQqCUuvM3/M+WDVguWBrMVdDXEGZlBVEUrVCU9d9s5+fnaTQa2PZyPxEIhJaI1EEoZwX4ncynp6fXrmB4eJjR0VFarRbNZnP9P9rt9gohqNVq1Ov1ZbF/AZGev3hLJ2/zAAAAAElFTkSuQmCC)}
+		.xchecked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8bDYnDxEwAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAEK0lEQVRIx9WVS2hTWRjHf/eR3CY1nbxMH2YiZRQS6qO13YlMVxY3SnVcuNIBFezGpSADLoQqLu1sHJCqdCFSXFpw4YOCSH3BtFqttTNamabX3DS5bfO6uffMoglja3RGcDMHzuac7/z/53++//cd+L8P6VuCPQYZ8ADNgBd4J31DcDcQs+GnHByRocEDv0kfBSjAOlYCs11Q+gpwDegS8LMJ+3QIK0ATzEhV8Odnz5bzw8P4dJ25aJQ/WlvJ1df/K7hSLtOcTNI+Pk69rpMTgqIQhCDvh1/VSpw79+gRrRMTmLZNezLJJsPg+a5dmOEwQlFqg1sWG16/Jv7sGWXDwBACFQjC9HcwIMONKkGp4PGAJGEDS0IQmZlhnWnye3c3eiyGo6qr3WHbrJ+dJf7gAXI6zSIr72T7/fgzmT4FHnTBsgrQBfYvTU0km5vxz86iADnAm0rRPTWFt7cXZccOJJcLAGHb2K9ekT93jmwmwwdAAFpjI6Ntbfxw5879ag7l6o1sr5eHHR3IsRgeQK/M4sQE+YEB7JcvEY6zAj45SWFgAPPxYwzHoQxIkQjTPT0kIxE+Noj8sexFn4/xnh58iQTeSpHkHAdrbIzi0BCOrmNPTpK/eJHM3bt8sCyKQCiR4NWePWSiUZw1+ZLXJm4pFKLhzBlCsRh2RUXacVgeGaF47RrL58+zcP8+RrmMkCQinZ1EL1zAjERqmkH+tLYl1G3bCJw4QUjT0IA0MJfLMX/5MqmHD0nZNiUgtGULG/r7ccXjINWuWbnmqsuFu7sb/4EDNLlcBIEioNs2KUAFGmMxmk6dQm1tRZI+3xBqEkiShBQOox05Ql1nJ26gvuIUAWiKQnj/ftStW5Fk+YuF+NldsbBA4cYN9KdPmaso8Fc62ZJtk7l1C2t0FGdxESHE1xE4hkHh6lX0oSHSpRIewC/LrPf7CSgKNpCamkI/fZr8pUuIZBIcpyaBunahPp1mub+fDyMjGKUSChCsq6Nh717q9u2jbnSU0uAgRrFIwTThyhUCqRS+hgZKLS1fJvDm87SNjZGcnsYUAjcQ8vsJ9/Xh7u1FDgRQN20iks3iDA+zZFmYhQLqzZtsj8WY3L0baY2Sf55ICCKpFHUzM2SEQAJCHg+hY8fQDh5EDgRWDoRC1J88SePRo2geD0XAcBy8b98Sv3ePYDZbbf2rFQjLIphMsmDbaEBQVQkePox26BCSz7e6i4bDrDt+nGYhmBscpFAskheC4Js3bPR4qHphFYEnlcI7P4/jdqNpGu8TCe4oCsXr1z//F2ga3+/cSfTJE0qmSVYIsKzaOZDcbjKyzFIiwfvt21kMBLA07YsetzWNd+3tLLW0sH5igvT8PH9Go/z44kX+E4LGjg7GDYOcy4XlOEgLC//5P/5LCFzxOPLmzWyIx+m6fduu7v0NVGqyTSycKksAAAAASUVORK5CYII=)}
+		.unchecked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8qAt8h3m8AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAA60lEQVRIx+2VsQqDMBRF70sCLg5OLoKgjk7+lJ/hh+STXBwcnRz8ArMEkrxOFktbaC3tULzTg5e8k5vADXDq70VbobXmvu/hvQczg4heHrJfXxQFuq67blZbMc8zpmlCXddIkgTOuZcBUko45zCOI6y1Nz2xFSEEZFmGOI7fGg4A3nsQEZqmuXOu9jallACAtm3fvmutNaIoAjM/dkBECCF89KCbk4eAb+kEnIAT8EsAM0OIz3hSyrssUvss8t5fg+uIrLXPs0gIgWVZYIyBUurQyYdheO4gz3NUVQVjDNZ1PfSjpWmKsixvehfB9GBZ3NndrgAAAABJRU5ErkJggg==)}
+		.migrated-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB+AKHREFA8vJSnkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAC1klEQVRIx+2VT0hUURTGf/e958w4Tc3TYowMw1GyEgwr1MqsFmbZIrIWQZsWJUjbdoHQpl3Qps0swnCRECQFYkR/TC1iKkqmfzAKTo2Vf8hoRsfR995tkRMT87RRWkUHHhy495zvnvvu933wP/75EKkkEAjIYDCIaZpIKRFCZN0kfX9xcTGtra2/irVUEolECIfDlJeXo+s6hmFkDaCqKoZhEAqFSCaTv60pqcSyLAoLC/F4PEtqDmCaJkIIKisrMybX0sdUVRWA5ubmPzdNjjI1cpXkZC/O1fV03PXgdDqRUtpPIITAsqxsDz0Z/3CZQv8uqo4N4C8/Tp2/DdM0MiZQlvk41OTkI/LW1SGtCVb5drD3eCc71wcA+VcAHA5vDd8+3UGakxiJV7i9pdQevU5T1R35pJ3MV5QW1pf+0kWBheJ2SWua8EQXZXsu4fVVYEz1sEKvof5EuxjoPvzpcRvrdp9C2gGMx6cpOHBmbImMesds7BZubwMVDTfXDnQ3vQfK7AC8wLfExMX5whyQc3q2OEnjGm5vE76SQxsfBLr77a7CNf+n0r/l6sSMtsBSnurckiIILCobAtVZhpF4gZF4jubaymj4Ch/fd380LE7bAnjc0NPxk2yqpmEuwGxF0ag+0k5uTpzZeBeaazvj0We8fXojainsb2xh2BZgbe0gSIllzSIUh63wfQ6dZ/O2fbjcKlOj58jJ3cVENESw5yErc9nf2MLQ4jwQAkV1Lqiq37/cZ9WaahJjF9AcmxiPDhLs7ePe23oOnmUwg2hSShQle96tKDjA2HAniusgo9FxnvY9Jxw7RWzGYy92QghM00x5g53qp9sHmtB58/o2umOI2NwGolMnMYUHIb7aAyiKwsjICLqu2/qBEIKUUAohMaSHSLyBSMoPTINQ6CX5+fn2AEVFRZSUlBCPx4nFYhl3L4RESjF/GEgX3pSj+Xw+/H7/b3U/AEOZFnp7O5+5AAAAAElFTkSuQmCC)}
+		ul {list-style-image: none}
+		/* ul rule needed to reset style for sub-bullets */
+	</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class='header'>
+	[ <a href='./Calendars,_Chronologies,_and_Cosmology.html'>Prev</a> ]
+
+	[ <a href='./Index.html'>Index</a> ]
+
+	[ <a href='./Conqueror's_Road.html'>Next</a> ]
+</div>
+
+<hr />
+
+<!-- Wiki content -->
+
+<div class='pages'>
+	<div class='heading'>
+	<h1>Caracossam <a name='Caracossam'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Created Tuesday 27 June 2017
+</p>
+
+<p>
+Caracossam consists of four geographical regions, within which there are twelve independent claims: four holds in the open lands, four spires amongst the mountain ranges of the <a href="./Towering_Terminole.html" title="Towering Terminole" class="page">Towering Terminole</a>, and four dwarf nations carved under the earth in a network of long tunnels. While the claims of Caracossam are notionally under the rule of the Dopesmoker seated at <a href="./Dopethrone.html" title="Dopethrone" class="page">Dopethrone</a>, the tallest of the spires, in fact they tend to be largely autonomous aside from semiregular tributes and levies. "Might makes right" is very much the literal rule of Caracossam, and violence is the premier avenue to a position of power, whether that be the lord over all a claim or merely a seat in such a lord's court (should they deign to have one). Leadership lay in the hands of whosoever can field the fiercest army or dominate in a trial of honored combat, though there are occasions of angry warmongers grabbing power only to hand it away to a more patient advisor--nevertheless, Caracossam's law is always born from the strike of a weapon.
+</p>
+
+<p>
+Dopethrone is Caracossam's capitol by virtue of being the largest, tallest settlement, and its high ruler's single qualification is that they are the most giant of giants. Currently that honor goes to <a href="./Dopesmoker_Thunderbrought.html" title="Dopesmoker Thunderbrought" class="page">Dopesmoker Thunderbrought</a>, a storm giant who is a hundred feet tall. Thunderbrought has imposed his will over all the other claims of Caracossam at least once over the course of his 8,000 year rule, effectively uniting them insofar as they can be united. He handles most acts of aggression personally, keeping his armies well-honed and feared across the Land of Scales, with his personal <a href="./Black_Metal_Berserkers.html" title="Black Metal Berserkers" class="page">Black Metal Berserkers</a> second only to the <a href="./Setting_Suns_Warband.html" title="Setting Suns" class="page">Setting Suns</a> of <a href="./Jakarry.html" title="Jakarry" class="page">Jakarry</a>. Little politicking and few stately matters transpire in Caracossam, but most matters are self-solved between Thunderbrought's court mage the <a href="./The_Electric_Wizard.html" title="Electric Wizard" class="page">Electric Wizard</a>, his executor/executioner Bongtar, and the envoys from the claims. This cabinet and its chief are the extent of national government in Caracossam, with the different claims adhering to no singular constitution nor creed.
+</p>
+
+<p>
+From East to West, the major spires are Highstriver near the <a href="./The_Bleed.html" title="Bleed" class="page">Bleed</a>, Dopethrone next to the Towering Terminole, Grindglass to the South of Dopethrone, and Smokestrangler along the Black River toward the <a href="./Tholdas_Moonbow.html" title="Tholdas Moonbow" class="page">Tholdas Moonbow</a>. The major holds are Earthstealer near the Bleed, Squallhowl along the Southern Coast, Hazewatch near the <a href="./The_Haze.html" title="Haze" class="page">Haze</a>, and Stepperager in Greater Caracossam. The underground claims are Steel Cove under Lesser Caracossam, Copper Run under Greater Caracossam, Summitstone within the Towering Terminole, and Underspring below the Bleed.
+</p>
+
+<p>
+The population of Caracossam is made up firstly of giants who historically were the ruling race until equalization measures imposed after <a href="./Infernus_Arcanva.html" title="Infernus Arcanva" class="page">Infernus Arcanva</a> uplifted the dwarves, the second most populous race in Caracossam, from slave race to second-class citizens. Giants and dwarves are the trend but many other races are able to carve out a niche within the realm of Caracossam such as humans, warforged, duergar, gnomes, halflings, goliaths, tieflings, genasi, <a href="./Dragons.html" title="dragonkin" class="page">dragonkin</a>, kenku, thri'kreen, and <a href="./Goblinoids.html" title="goblinoids" class="page">goblinoids</a> of all kinds. Numerous generations of <a href="./Warforged.html" title="warforged" class="page">warforged</a> were crafted by the dwarves before the technology was lost and many survive to the present even though a fraction are not fully intact, mentally or physically. Duergar, gnomes, and halflings naturally arise as subraces of dwarves, though tend to be uncommon outside of their home regions. Goliaths are well-tolerated as a giant subrace but many face a stigma for being what is seen as a lesser version of the larger giants. Kenku and thri'kreen thrive in the sparse wilds of Caracossam, and even have racial enclaves amongst most larger settlements. Ogres manage well in such a violent land, as do minotaurs and gnolls, regardless of how civilized they are. Upper Caracossam is home to most of these races, while Lesser Caracossam tends more toward dwarven and giant races and Greater Caracossam is given more toward humans, monstroids, and goblinoids. Lower Caracossam is dominated by dwarves and is devoid of giants save those junctions between surface and subterrane. 
+</p>
+
+<p>
+Overall, the peoples of Caracossam are rigidly and clearly divided along broad racial lines. The tallest and largest races, meaning giants, lord power over the lesser races to a large extent, but the numbers of giants have been kept in check by the survival instincts of the other races. In the past the racial divides were the source of constant racial wars as the predations of the giants had driven many other races into brutal slavery conditions. The arrival of Infernus Arcanva was a catalyst to change, as he taught the dwarves higher magical arts than had ever been known before and that eventually gave them the power to overthrow the giants. Caracossam eventually reached equilibrium as the other races grew strong enough to contend with the giants, with the peoples forming up into their independent claims and occasionally falling under unified rule. Still, the giants generally continue to control the uplands and the more violent locales, while the underground belongs squarely to the dwarves who pay lip service to the Dopesmoker as tradition mandates. Most of Caracossam's aggression is now dispersed outwardly against the warriors of the <a href="./Mercenary_Kingdoms.html" title="Mercenary Kingdoms" class="page">Mercenary Kingdoms</a> and soldiers from <a href="./Conqueror's_Road.html" title="Conqueror's Road" class="page">Conqueror's Road</a>, the latter of whom is due for a cataclysmic invasion from the fully-mustered might of all Caracossam. For millenia the giants have seen the gigantic state-city as something that rightfully could belong only to them, but such is a mistake that history has yet to see rectified. 
+</p>
+
+<p>
+Caracossam's economy is based on a straightforward model. Resources are produced and goods are crafted by skilled craftsmen, usually independent and probably dwarves. These items are then targeted for looting by a marauding war party of possibly armed and probably unskilled belligerents. At this point the items are either stolen, destroyed, or defended. Things that have been stolen or successfully defended become more valuable, and the process will likely repeat many times until the eventual destruction of whatever is involved. Caracossam's looting-based economy fluctuates wildly with wealth never accumulating in any one spot for much time at all, and perpetuates only because the dwarves have access to unlimited supplies of mineral resources in the Towering Terminole. Sometimes goods from outside of Caracossam are involved in this process, but rarely have the physical durability required to survive the violence innate in Caracossam trading.
+</p>
+
+<p>
+Myth and Minutiae<br>
+<div style='padding-left: 30pt'>
+Caracossam is the name of the first Dopesmoker. His legends are countless, and most giant legends are eventually attributed to him when the original character is forgotten. Accounts of his height vary wildly. Most giants never see 100ft, few giants historically have grown taller than 200ft, but Caracossam has been said to be at least 1000ft and at most "taller than the Towering Terminole." 
+</div>
+</p>
+
+<p>
+<div style='padding-left: 30pt'>
+Infernus Arcanva didn't overthrow the giants, but he was no fan. When one of Dopesmoker Thunderbrought's royal ancestors summoned <a href="./Orcus.html" title="Orcus" class="page">Orcus</a> to the <a href="./Prime_Material.html" title="Prime Material" class="page">Prime Material</a> in a bid for power, Infernus intruded to battle Orcus, who himself had no interest in the Dopesmoker's deal and only wanted to seek Infernus and steal his necromantic secrets. Orcus was dispatched and the infuriated Dopesmoker attacked Infernus, who obliterated him and teleported away. Thunderbrought still bears the grudge.
+</div>
+</p>
+
+<p>
+<div style='padding-left: 30pt'>
+The dwarves after their uplifting experienced a <a href="./The_Arcanvan_Aeon.html" title="golden age" class="page">golden age</a> alongside the one occurring in Conqueror's Road under Infernus' guidance. Numerous claims were carved <a href="./Subterrania_and_the_Deep_Dark.html" title="beneath the surface of the earth" class="page">beneath the surface of the earth</a>, like the magnificent underground metropolis of Orres Olt. There were grand roads linking all the claims of Caracossam and spanning the continent, with one to the South of the <a href="./Great_Dale.html" title="Great Dale" class="page">Great Dale</a>, one to Conqueror's Road below the <a href="./The_Balewoods.html" title="Balewoods" class="page">Balewoods</a>, and an arduous trek of pilgrimage far away to <a href="./Arcanva_Dale.html" title="Arcanva Dale" class="page">Arcanva Dale</a>. The dwarves, unfortunately, dug too deep, and much of their glory was swallowed by the earth. 
+</div>
+</p>
+
+<p>
+<div style='padding-left: 30pt'>
+Sparse in flora but unimaginably rich in monster and mineral wealth, Caracossam relies on metal for most nearly everything. The dwarves bring common metals like copper and iron from the ground in vast quantities, enough that a large percentage of the metal in the world's goods originated from Caracossam. With access to rarities from the deep earth the region maintains an edge with advanced alloys and miraculous ores like orichalcum and mithril. On the downside, magical and alchemical reagents are uncommon in the region, fetching the high prices that Caracossam metals do elsewhere.
+</div>
+</p>
+
+<p>
+<div style='padding-left: 30pt'>
+The majority of plants grow poorly in Caracossam if they grow at all, with one exception: cannabis. Something about the nature of the land makes the plant thrive, growing in thick, fragrant stands nearly where ever it can find a place to root. Known as the Weed, cannabis is grown both as hemp and marijuana and serves as Caracossam's only other major resource besides minerals. Weed is so important to Caracossam that it factors into the region's culture in many ways, and the weed is one of the only things the Dopesmoker regularly taxes from all who owe fealty to him.
+</div>
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+		<b>Backlinks:</b>
+
+		<a href='./Great_Dale.html'>Great Dale</a>
+
+		<br /><br />
+
+	</div>
+
+	
+
+</div>
+
+</body>
+</html>
